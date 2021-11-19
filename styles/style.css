@@ -1,0 +1,114 @@
+/***ОБЩИЕ***/
+.page {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+
+/***HEADER***/
+
+.header {
+  display: flex;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  }
+
+.logo__place_header {
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;  
+  background-image: url(../images/logo_place_header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: red solid 3px;
+}
+
+.header__title {
+  width: 730px;
+  height: 192px;
+  border: red solid 3px;
+  align-content: center;
+  margin: auto 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__title_text {
+  font-size: 102px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  margin: 0px;
+  line-height: 0.85;
+}
+
+.header__subtitle {
+  width: 388px;
+  height: 75px;
+  border: red solid 3px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.header__subtitle_text {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+  margin: 0px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  border: red solid 3px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+}
+
+.header__main-illustration_img {
+  width: 765px;
+  height: 608px;
+
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  border: red solid 3px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  background-color: #2f80ed;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+
+}
