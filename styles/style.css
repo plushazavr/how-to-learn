@@ -153,6 +153,7 @@
 
 .digits {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -190,7 +191,7 @@
   border: red solid 3px;
   display: flex;
   width: 1100px;
-  margin: 0px auto 100px; 
+  margin: 0px auto 100px
 }
 
 .table-card {
@@ -239,15 +240,139 @@
   margin-bottom: 0px;
 }
 
+/***FEYNMAN***/
+
+.feynman {
+  background-color: #f2f2f2;
+  height: 890px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.feynman__background {
+  border: red solid 3px;
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+
+.feynman__title {
+  border: red solid 3px;
+  position: relative;
+  z-index: 2;
+  width: 648px;
+  height: 276px;
+  margin: 0px auto 70px;
+ 
+}
+
+.feynman__title_text {
+  color: black;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.feynman__subtitle {
+  border: red solid 3px;
+  position: relative;
+  z-index: 2;
+  height: 51px;
+  width: 400px;
+  margin: 100px auto 70px;
+  text-align: center;
+  
+}
+
+.feynmnan__subtitle_text {
+  color: black;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  margin: 0px 0px;
+}
+
+.feynman__link {
+  border: red solid 3px;
+  height: 51px;
+  display: inline-block;
+  position: absolute;
+  bottom: 50%;
+  right: 48px;
+}
+
+.feynman__link-text {
+  color: #2f80ed;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-decoration: none;
+}
 
 
 
+/***KAUFMAN***/
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  background-color: black;
+}
+
+.section-title__theme_dark {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.section-title__theme_dark_text {
+  color: white;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0px auto;
+
+}
+
+.section-subtitle__theme_dark {
+  margin-top: 20px;
+}
+
+.section-subtitle__theme_dark_text {
+  color: white;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin: 0px auto;
+}
+
+
+
+.table__theme_dark_card {
+  margin-top: 0px;
+}
+
 .table__cell_theme_dark {
+  border: red solid 3px;
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
 
+.table__cell_theme_dark_heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.table__cell_theme_dark_text {
+  font-size: 18px;
+  line-height: 1.2;a
+  font-weight: normal;
+  margin-bottom: 0px;
 }
