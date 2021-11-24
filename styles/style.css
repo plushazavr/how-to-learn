@@ -401,7 +401,7 @@
  .column__content_copyright {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;   
+   justify-content: space-between;
    width: 50%;
  }
  
