@@ -23,7 +23,7 @@
   height: 32px;
   position: absolute;
   top: 30px;
-  left: 64px;  
+  left: 64px;
   background-image: url(../images/logo_place_header.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -107,7 +107,6 @@
 .two-columns {
   display: flex;
   width: 80%;
-  display: flex;
   justify-content: center;
   margin: 100px auto 0px;
   box-sizing: border-box;  
@@ -120,7 +119,11 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  margin-left: auto;  
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  color: black;  
 }
 
 .two-columns__main-text-one {
@@ -134,16 +137,8 @@
 .two-columns__brief_text {
   font-weight: 18px;
   line-height: 1.2;
-  font-weight: normal;
   color: #2f80ed;
   margin-top: 0px;
-}
-
-.two-columns__main-text {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
-  color: black;
 }
 
 /***DIGITS***/
@@ -185,7 +180,7 @@
 .table {
   display: flex;
   width: 1100px;
-  margin: 0px auto 100px
+  margin: 0px auto 100px;
 }
 
 .table-card {
@@ -409,7 +404,7 @@
    justify-content: space-between;   
    width: 50%;
  }
-
+ 
  .logo__place_footer {
   width: 183px;
   height: 35px;
