@@ -34,15 +34,11 @@
   font-weight: bold;
   color: black;
   text-align: left;
-  line-height: 0.85;
+  line-height: 96px;
   width: 730px;
-  align-content: center;
   margin-left: 64px;
-  margin-top: auto;
-  margin-bottom: auto;
   display: flex;
-  justify-content: center;
-  position: relative;
+  align-items: center;
   z-index: 3;
 }
 
@@ -118,7 +114,15 @@
 }
 
 .two-columns__paragraph {
+  margin: 30px 0px 30px;
+}
+
+.two-columns__paragraph:first-child {
   margin-top: 0px;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
 }
 
 .two-columns__span-accent {
@@ -157,7 +161,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  margin: 60px auto 100px;
+  margin: 0px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .table__cell {
@@ -176,15 +183,12 @@
 }
 
 .table__text {
+  margin: 0;
   margin-top: 20px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   text-align: left;
-}
-
-.table__text_quote {
-  margin-bottom: 0px;
 }
 
 /***FEYNMAN***/
@@ -258,6 +262,8 @@
   margin: 0px auto;
   padding-top: 90px;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -301,6 +307,7 @@
   width: 877px;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
   background-repeat: no-repeat;
   position: absolute;
   z-index: 1;
@@ -317,27 +324,26 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
- }
+}
 
- .footer__columns {
-   width: 90%;
-   display: flex;
- }
+.footer__columns {
+  width: 90%;
+  display: flex;
+}
 
- .footer__column_content_copyright {
-    display: flex;
-   flex-basis: 711px;
-   flex-direction: column;
-   justify-content: space-between;   
- }
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+  flex-direction: column;
+  justify-content:space-between;
+}
  
- .logo_place_footer {
+.logo_place_footer {  
   width: 183px;
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
   background-repeat: no-repeat;
   background-size: 183px 35px;
-  background-position: center;
 }
 
 .footer__author {
@@ -350,8 +356,6 @@
 
 .footer__column_content {
   display: flex;
-  align-items: baseline;
-  justify-content: flex-end;
   width: auto;
   flex-grow: 1;
 }
@@ -359,6 +363,7 @@
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   width: auto; 
 }
 
@@ -387,9 +392,10 @@
   text-align: right;
 }
 
-.footer__colomn_content_social {
+.footer__column_content_social {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  align-items: baseline;
   width: auto;
   text-align: left;
 }
