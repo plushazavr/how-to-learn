@@ -1,4 +1,13 @@
 .cards {
-  border: orangered solid 3px;
   width: 920px;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-auto-flow: row;
+  column-gap: 100px;  
+  row-gap: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
