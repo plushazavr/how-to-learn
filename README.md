@@ -15,6 +15,6 @@
 * Работа с iframe и @keyframes
 * Трансформации и анимации
 
-## Как развернуть проект:
+## Склонировать проект на ПК:
 
     gh repo clone plushazavr/how-to-learn-main
